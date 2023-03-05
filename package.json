@@ -1,27 +1,15 @@
 {
-  "name": "blockchain-crowd-funding-app-backend",
+  "name": "blockchain-fcc",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Varshith-p/blockchain-crowd-funding-app-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Varshith-p/blockchain-crowd-funding-app-backend/issues"
-  },
-  "homepage": "https://github.com/Varshith-p/blockchain-crowd-funding-app-backend#readme",
+  "license": "MIT",
   "devDependencies": {
-    "@chainlink/contracts": "^0.6.1",
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@chainlink/contracts": "^0.6.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
-    "hardhat": "^2.13.0",
-    "hardhat-deploy": "^0.11.24"
+    "hardhat": "^2.12.6",
+    "hardhat-deploy": "^0.11.22"
   }
 }

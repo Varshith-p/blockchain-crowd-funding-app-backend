@@ -29,7 +29,7 @@ contract FundMe {
 
     function fund() public payable {
         require(
-            msg.value.getConversionRate() > MINIMUN_USD,
+            msg.value.getConversionRate(priceFeed) > MINIMUN_USD,
             "You need to spend more ETH"
         );
         fundersToAmountFunded[msg.sender] += msg.value;
